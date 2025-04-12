@@ -1,0 +1,17 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+## mkdocs
+.cache/
+
+# pixi environments
+.pixi
+*.egg-info
+
+##python cache
+*.pyc
+
+##generated skills list
+skills.txt

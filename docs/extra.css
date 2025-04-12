@@ -1,0 +1,45 @@
+.skill-label {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px; /* Adjust this value for more or less rounded corners */
+    background-color: #27788b; /* Teal color */
+    color: white !important; /* Force text to stay white, overriding MkDocs styles */
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none !important; /* Remove underline for links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.skill-label:hover {
+    background-color: #3596aa; /* Darker teal on hover */
+    color: white !important; /* Ensure text stays white on hover */
+}
+
+/* Further increase specificity to override MkDocs link styles */
+div.label-container a.skill-label {
+    color: white !important; /* Ensure text stays white */
+    text-decoration: none !important; /* Remove underline */
+}
+
+div.label-container a.skill-label:hover {
+    color: white !important; /* Ensure text stays white on hover */
+}
+
+/* Ensure the label container aligns properly */
+.label-container {
+    text-align: right; /* Align labels to the right */
+}
+
+/* Center images */
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Override MkDocs primary colors if needed */
+:root > * {
+    --md-primary-fg-color:        #27788b;
+    --md-primary-fg-color--light: #82b3be;
+    --md-primary-fg-color--dark:  #27788b;
+}
