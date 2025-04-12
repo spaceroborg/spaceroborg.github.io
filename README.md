@@ -1,4 +1,4 @@
-# Riya Gujarathi's Personal Website
+# Riya's Personal Website
 
 Go to [spaceroborg.github.io](https://spaceroborg.github.io/) to check it out!
 
