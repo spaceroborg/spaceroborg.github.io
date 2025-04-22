@@ -1,31 +1,24 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    line-height: 1.6;
     background: #f9f9f9;
     color: #333;
   }
   
   header {
-    background: #333;
-    color: white;
-    padding: 1rem;
     text-align: center;
-  }
-  
-  nav a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
-  }
-  
-  .content {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
     padding: 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .about {
+    display: flex;
     max-width: 900px;
-    margin: auto;
+    margin: 2rem auto;
+    gap: 2rem;
+    padding: 0 2rem;
+    flex-wrap: wrap;
   }
   
   .profile-pic {
@@ -33,10 +26,40 @@ body {
     border-radius: 50%;
   }
   
+  .about-text {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 250px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
   footer {
     text-align: center;
     padding: 1rem;
-    background: #333;
+    background-color: #333;
     color: white;
   }
   
