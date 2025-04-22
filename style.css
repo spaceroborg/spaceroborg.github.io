@@ -1,92 +1,95 @@
-/* Base styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    background: #f5f7fa;
-    color: #2c2c2c;
-    line-height: 1.6;
-  }
-  
-  /* Header */
-  header {
-    text-align: center;
-    padding: 2.5rem 1rem;
-    background: linear-gradient(to right, #4f46e5, #6d28d9);
-    color: white;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 600;
-  }
-  
-  /* About Section */
-  .about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 3rem auto;
-    padding: 0 1rem;
-  }
-  
-  .profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about-text {
-    flex: 1;
-    min-width: 280px;
-    text-align: justify;
-  }
-  
-  /* Card Section */
-  .cards {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    margin: 2rem 0 4rem 0;
-    padding: 0 1rem;
-  }
-  
-  .card {
-    background: white;
-    border: none;
-    border-radius: 16px;
-    padding: 2rem;
-    width: 280px;
-    text-align: center;
-    text-decoration: none;
-    color: #2c2c2c;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .card h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-    color: #4f46e5;
-  }
-  
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #eee;
-    color: #666;
-    font-size: 0.9rem;
-  }
-  
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f5f7f2;
+  color: #2b2b2b;
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background-color: #d5e8d4; /* pastel green */
+  color: #1e4620;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 4rem auto;
+  max-width: 1000px;
+  padding: 0 2rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 1.8rem;
+  width: 280px;
+  text-align: center;
+  text-decoration: none;
+  color: #2b2b2b;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #388e3c;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #dbead3;
+  color: #444;
+  font-size: 0.9rem;
+}
