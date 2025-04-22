@@ -110,14 +110,14 @@ h2 {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -149,7 +149,7 @@ p {
 .box {
   display: inline-block;
   padding: 15px 25px;
-  margin: 10px;
+  margin: 7px;
   border: 2px solid #1772d0;  /* Border matching the link color */
   border-radius: 5px;
   font-size: 18px;
@@ -174,111 +174,4 @@ a:focus,
 a:hover {
   color: #f09228;
   text-decoration: none;
-}
-
-/* The rest of your existing CSS remains the same */
-
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-h2 {
-  margin: 0;
-  font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
-}
-
-.papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.name {
-  padding-top: 20px;
-  margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-}
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-span.highlight {
-  background-color: #ffffd0;
-}
-
-.colored-box {
-    color: black;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 10px;
-}
-
-p {
-  text-align: justify;
-}
-
-/* Stretch the paragraphs horizontally */
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-table {
-  width: 100%;  /* Ensure the table stretches across the screen */
-}
-
-td {
-  padding: 20px;  /* Add some padding for better layout */
-}
-
-/* Increase space between "Hi, I'm Riya Gujarathi" and the text below */
-.name {
-  padding-top: 20px;
-  margin-bottom: 30px; /* Adjust this value for more space */
-}
-
-/* Reduce the space between the boxes and the text above it */
-h2 {
-  margin-top: 10px;  /* Reduce margin above the header */
-  margin-bottom: 10px; /* Reduce margin below the header */
-}
-
-/* Optional: Adjust the box spacing */
-.colored-box {
-  margin-top: 10px; /* Reduce margin between boxes and text */
 }
