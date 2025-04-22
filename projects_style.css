@@ -3,6 +3,7 @@
     padding: 40px 20px;
     background-color: #f9f9f9;
   }
+
   
   #projects-research .container {
     max-width: 600px;
@@ -27,21 +28,20 @@
   }
   
   .intro {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 40px;
   }
   
 
-  .box, .project-item {
+  /* .box, .project-item {
       width: 48%;  /* Adjust this for the desired layout */
-  }
 
 
   /* Add styles for the clickable boxes */
   .box {
     display: inline-block;
     padding: 10px 20px;
-    margin: 1px;
+    margin: 0;
     border: 2px solid #1772d0;  /* Border matching the link color */
     border-radius: 5px;
     font-size: 18px;
@@ -57,7 +57,54 @@
     color: #f09228;  /* Hover text color */
   }
   
+
+
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Auto-adjust columns to fit the container */
+    gap: 15px; /* Space between the boxes */
+  }
+
   .project-item {
+    padding: 20px;
+    margin: 0; /* Removes margin between boxes */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: justifyr;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box h4 {
+    margin-top: 10px;
+  }
+  
+  .project-item p {
+    margin: 10px 0;
+  }
+  
+  .project-item a {
+    padding: 10px 20px;
+    background-color: #1772d0;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .project-item a:hover {
+    background-color: #f09228;
+  }
+
+  
+
+
+
+  /* .project-item {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -74,7 +121,7 @@
     font-size: 16px;
     margin-bottom: 15px;
   }
-  
+   */
   .project-item .button {
     display: inline-block;
     padding: 10px 20px;
