@@ -248,3 +248,37 @@ span.highlight {
 p {
   text-align: justify;
 }
+
+/* Stretch the paragraphs horizontally */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;  /* Ensure the table stretches across the screen */
+}
+
+td {
+  padding: 20px;  /* Add some padding for better layout */
+}
+
+/* Increase space between "Hi, I'm Riya Gujarathi" and the text below */
+.name {
+  padding-top: 20px;
+  margin-bottom: 30px; /* Adjust this value for more space */
+}
+
+/* Reduce the space between the boxes and the text above it */
+h2 {
+  margin-top: 10px;  /* Reduce margin above the header */
+  margin-bottom: 10px; /* Reduce margin below the header */
+}
+
+/* Optional: Adjust the box spacing */
+.colored-box {
+  margin-top: 10px; /* Reduce margin between boxes and text */
+}
