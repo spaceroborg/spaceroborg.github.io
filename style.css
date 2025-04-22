@@ -77,10 +77,11 @@
   
   .profile-section img {
     border-radius: 50%;
-    width: 200px;
-    height: auto;
+    width: 150px; /* Adjusted size */
+    height: 150px; /* Ensuring it's a square */
     object-fit: cover;
   }
+  
   
   .profile-text {
     flex: 1;
